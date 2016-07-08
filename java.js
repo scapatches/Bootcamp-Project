@@ -23,7 +23,7 @@ function resetSearch(){
   var items = [];
   $.each( data.response.venues, function( index, val ) {
       
-    items.push( "<li id='" + index + "'>" + data.response.venues.[index].name + "</li>" );
+    items.push( "<li id='" + index + "'>" + data.response.venues[index].name + "</li>" );
   });
  
   $( "<ul/>", {
